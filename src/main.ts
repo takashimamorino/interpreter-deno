@@ -1,2 +1,3 @@
-console.log("Hello world");
-console.log(Deno.args);
+import { start } from "./repl/index.ts";
+
+start();
